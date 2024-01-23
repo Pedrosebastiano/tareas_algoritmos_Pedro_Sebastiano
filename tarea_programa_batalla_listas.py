@@ -18,7 +18,6 @@ while PS_jugador > 0 and PS_oponente>0:
         print(f"Ese ataque no es valido. Tus ataque son {ataques} ")
         continue   
 #TURNO OPONENTE
-  
     ataque_oponente = random.choice(ataques)
     if ataque_oponente == ataques[0]:
         defensa_jugador -= 10
@@ -28,8 +27,6 @@ while PS_jugador > 0 and PS_oponente>0:
         PS_jugador -= 35 / (defensa_jugador/100)
     elif ataque_oponente == ataques[2]: 
         PS_jugador -= 40
-
-
 if PS_oponente <= 0 and PS_jugador <= 0 :
     print("Empate")
 elif PS_oponente <= 0:
