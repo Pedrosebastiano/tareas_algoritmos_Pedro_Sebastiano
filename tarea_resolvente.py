@@ -11,4 +11,4 @@ elif (b**2 - 4*a*c) == 0:
     x1 = round(((-b) + math.sqrt(b**2 - (4*a*c))) / 2*a, 2)
     print(f"La ecuaciion tiene 1 solucion, el valor de X1 = {x1}")
 else:
-    print(f"La ecuacion no tiene soluciones en los reales")
+    print("La ecuacion no tiene soluciones en los reales")
